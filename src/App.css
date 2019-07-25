@@ -1,0 +1,53 @@
+.content{
+
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.logo{
+  text-align: center;
+}
+
+.interview-text{
+  display: block;
+  color: #fff;
+  font-family: "ITC Serif Gothic", Lato;
+  font-size: 2.25em;
+  left: -2em;
+  letter-spacing: 0.4em;
+  right: -2em;;
+  text-transform: uppercase;
+  top: 29%;
+}
+
+/* Override some Bootstrap pagination styles */
+ul.pagination {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+}
+  ul.pagination li {
+    display: inline-block;
+    padding: 4px;
+    background-color: #e3e7eb !important;
+  }
+  ul.pagination li.active a {
+    color: #445565 !important;
+    background-color: #e3e7eb !important;
+    border-color: #ced4da !important; }
+  ul.pagination a {
+    padding: 0.75rem 1rem;
+    min-width: 3.5rem;
+    text-align: center;
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+    color: #6b88a4;
+    font-weight: 900;
+    font-size: 1rem; }
+    ul.pagination a:hover {
+      background-color: #f4f4f4; }
